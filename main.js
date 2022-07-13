@@ -34,7 +34,6 @@ function display_list(t){
 
 function delete_task(clicked_element){
     li = clicked_element.previousSibling;
-    // li = li.previousSibling;
     li.remove();
     li = clicked_element.nextSibling;
     li.remove();
@@ -50,16 +49,11 @@ function edit_task(clicked_element){
     task = document.getElementById("Task");
     task.value = text;
     
-    // li = li.parentNode;
-    // li.remove();
     li.remove();
     li = clicked_element.previousSibling;
     li.remove();
     clicked_element.remove();
     
-
-
-
 }
 
 
