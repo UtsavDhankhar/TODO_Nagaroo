@@ -18,12 +18,13 @@ function display_list(t){
     var z = document.createElement("button");
     var a = document.createElement("button");
 
-    y.innerHTML = "Delete";
+    y.innerHTML = "&#215";
     z.innerHTML = "Edit";
-    a.innerHTML = "complete";
+    a.innerHTML = "&#10004";
 
     y.setAttribute("onclick", "delete_task(this)");
     y.setAttribute("id" , "delete");
+    a.setAttribute("id" , "symbol");
 
     z.setAttribute("onclick" , "edit_task(this)");
     a.setAttribute("onclick" , "complete(this)");
