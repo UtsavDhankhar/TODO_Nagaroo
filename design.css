@@ -1,0 +1,50 @@
+body {
+    padding-left: 35%;
+    align-items: center;
+    background-color: rgb(4, 98, 98);
+  }
+
+
+  button {
+    margin-top: 2px;
+    margin-left: 10px;
+    line-height: 20px;
+    /* font-weight: bold; */
+    padding: 0 4px;
+    background: salmon;
+    border-radius: 5px;
+  }
+
+  #delete{
+    background-color: rgb(5, 16, 16);
+    color: aliceblue;
+    border-radius: 15px;
+  }
+
+  h2 {
+
+    margin-left : 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+
+  li {
+    margin-top: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:blanchedalmond;
+  }
+
+  label {
+    margin-right: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+
+  button:hover {
+    background: rgb(205, 91, 46);
+  }
+
+  input[type="text"]{
+    background-color: grey;
+    color :azure;
+}
