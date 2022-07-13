@@ -1,8 +1,19 @@
 let list = [];
 
+let task_input = document.getElementById("Task");
+task_input.addEventListener('keydown' , function(event){
+    const key = event.key;
+    if(key == 'Enter'){
+        getTask();
+    }
+})
+
 function getTask(){
     task = document.getElementById("Task");
     let t = task.value;
+    if(t.length == 0){
+        return;
+    }
     task.value = "";
 
     list.push(t);
