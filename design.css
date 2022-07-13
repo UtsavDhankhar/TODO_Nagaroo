@@ -48,3 +48,7 @@ body {
     background-color: grey;
     color :azure;
 }
+
+#complete{
+  text-decoration: line-through;
+}
